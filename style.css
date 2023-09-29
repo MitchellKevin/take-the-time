@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 300px;
+    height: 200px;
     width: 200px;
 }
 
@@ -44,9 +44,19 @@ body{
     text-decoration: none;
 }
 .title{
+    border: 3px solid black;
+    padding: 5px;
     font-size: 10.9em;
+    position: relative;
+    right: 0;
+}
+.homeWatch{
+    border: 3px solid black;
     position: absolute;
-    right: 6.25em;
+    top: 0;
+    left: 20em;
+    height: 62.5em;
+    /* rotate: 45deg; */
 }
 
 .infoBox{
@@ -182,13 +192,6 @@ body{
 .title .the{
     color: grey;
 }
-.homeWatch{
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 62.5em;
-    /* rotate: 45deg; */
-}
 /* .contactBalk{
     color: white;
     background-color: black;
@@ -233,41 +236,41 @@ body{
     width: 150px;
 }
 .dress{
-    width: 425px;
+    width: 26.56em;
     margin-right: 0;
     position: relative;
-    left: 700px;
-    top: 2800px;
+    left: 43.75em;
+    top: 175em;
 }
 .dress .titleDress{
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     width: max-content;
-    bottom: 800px;
-    font-size: 100px;
-    right: 600px;
+    bottom: 50em;
+    font-size: 6.25em;
+    right: 37.5em;
 }
 .dress .text{
     width: 100%;
     position: absolute;
-    top: 300px;
-    left: -500px;
+    top: 18.75em;
+    left: -31.25em;
 }
 .dress .button{
     border: 10px solid black;
     text-align: center;
     color: black;
-    left: -450px;
+    left: -28.125em;
     position: absolute;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    top: 650px;
-    border: 5px solid black;
-    height: 50px;
-    width: 150px;
+    top: 40.625em;
+    border: 0.3125em solid black;
+    height: 3.125em;
+    width: 9.375em;
 }
 .dress .button:hover{
-    box-shadow: 0 0 25px 0 black;
+    box-shadow: 0 0 1.5625em 0 black;
     color: white;
     background-color: black;
     
@@ -335,17 +338,18 @@ body{
     left: 25%;
     right: 25%;
     background-color: rgb(255, 255, 255);
-    height: 300px;
-    top: 1150px;
+    height: 18.75em;
+    top: 71.875em;
     position: absolute;
     
 }.info img{
+    border: 3px solid rgb(255, 0, 0);
     width: 100%;
     position:absolute;
     left: 0;
     right: 0;
-    top: 1000px;
-    height: 600px;
+    top: 62.5em;
+    height: 37.5em;
     align-items: center;
 }
 header {  
