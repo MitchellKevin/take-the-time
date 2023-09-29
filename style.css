@@ -1,0 +1,389 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.flex-container_info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.watch_info{
+    border: 3px solid red;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+
+.watch_info p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: black;
+}
+.watch_info:hover{
+    border: 3px solid blue;
+    transition-duration: 0.3s;
+    opacity: 1;
+}
+
+.about_balk{
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 4700px;
+    height: 200px;
+    align-items: center;
+}
+.about_balk a{
+    color: inherit;
+    text-decoration: none;
+}
+.title{
+    border: 3px solid black;
+    padding: 5px;
+    font-size: 10.9em;
+    position: relative;
+    right: 0;
+}
+.homeWatch{
+    border: 3px solid black;
+    position: absolute;
+    top: 0;
+    left: 20em;
+    height: 62.5em;
+    /* rotate: 45deg; */
+}
+
+.infoBox{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: rgb(255, 255, 255); */
+    height: 20px;
+    width: 250px;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.flex-container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1 img{
+    border: 3px solid black;
+}
+.box2 img{
+    border: 3px solid black;
+}
+.box3 img{
+    border: 3px solid black;
+}
+.box5 img{
+    border: 3px solid black;
+}
+.box6 img{
+    border: 3px solid black;
+}
+.box7 img{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+}
+.box1{
+    border: 3px solid blue;
+    display: flex;
+    margin: 10px;
+    margin-right: 0px;
+    /* left: 215px;
+    position: absolute; */
+    width: 200px;
+    height: 250px;
+    align-items: center;
+    top: 250px;
+    background-color: rgb(219, 214, 214);
+}
+.box2{
+    border: 3px solid blue;
+    display: flex;
+    /* left: 515px;
+    position: absolute; */
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    align-items: center;
+    top: 250px;
+    background-color: rgb(219, 214, 214);
+}
+.box3{
+    border: 3px solid blue;
+    display: flex;
+    /* left: 815px;
+    position: absolute; */
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    align-items: center;
+    top: 250px;
+    background-color: rgb(219, 214, 214);
+}
+
+.box5{
+    border: 3px solid blue;
+    display: flex;
+    /* left: 215px;
+    position: absolute; */
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    align-items: center;
+    /* top: 550px; */
+    background-color: rgb(219, 214, 214);
+}
+.box6{
+    border: 3px solid blue;
+    display: flex;
+    margin: 10px;
+    /* left: 515px;
+    position: absolute; */
+    width: 200px;
+    height: 250px;
+    align-items: center;
+    /* top: 550px; */
+    background-color: rgb(219, 214, 214);
+}
+.box7{
+    border: 3px solid blue;
+    display: flex;
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    align-items: center;
+    background-color: rgb(219, 214, 214);
+}
+
+.sort{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 60px;
+    text-align: center;
+    top: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bannerDress{
+    opacity: 60%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 125px;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+.title .the{
+    color: grey;
+}
+/* .contactBalk{
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5500px;
+    height: 300px;
+    align-items: center;
+} */
+.diver .titleDiver{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    width: max-content;
+    bottom: 800px;
+    font-size: 100px;
+    left: 500px;
+}
+.diver .text{
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+.diver{
+  position: relative;
+  left: 200px;
+  top: 800px;
+  height: 800px;
+  width: 425px;
+}
+.button{
+    text-align: center;
+    color: black;
+    left: 650px;
+    position: absolute;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    top: 600px;
+    border: 5px solid black;
+    height: 50px;
+    width: 150px;
+}
+.dress{
+    width: 26.56em;
+    margin-right: 0;
+    position: relative;
+    left: 43.75em;
+    top: 175em;
+}
+.dress .titleDress{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    width: max-content;
+    bottom: 50em;
+    font-size: 6.25em;
+    right: 37.5em;
+}
+.dress .text{
+    width: 100%;
+    position: absolute;
+    top: 18.75em;
+    left: -31.25em;
+}
+.dress .button{
+    border: 10px solid black;
+    text-align: center;
+    color: black;
+    left: -28.125em;
+    position: absolute;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    top: 40.625em;
+    border: 0.3125em solid black;
+    height: 3.125em;
+    width: 9.375em;
+}
+.dress .button:hover{
+    box-shadow: 0 0 1.5625em 0 black;
+    color: white;
+    background-color: black;
+    
+}
+.fav{
+    width: 425px;
+    margin-right: 0;
+    position: relative;
+    left: 100px;
+    top: 1800px; 
+}
+.fav .titleFav{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    width: max-content;
+    bottom: 800px;
+    font-size: 100px;
+    left: 550px;
+}
+.fav .text{
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+} 
+.fav .button{
+    border: 10px solid black;
+    text-align: center;
+    color: black;
+    left: 750px;
+    position: absolute;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    top: 600px;
+    border: 5px solid black;
+    height: 50px;
+    width: 150px;
+}
+.diver .button:hover{
+    box-shadow: 0 0 25px 0 black;
+    transition: 0.5s;
+    color: white;
+    background-color: black;
+}
+.fav .button:hover{
+    box-shadow: 0 0 25px 0 black;
+    transition: 0.5s;
+    color: white;
+    background-color: black;
+}
+.dress .button:hover{
+    box-shadow: 0 0 25px 0 black;
+    transition: 0.5s;
+    color: white;
+    background-color: black;
+}
+
+.info .white_box h1{
+    text-align: center;
+    font-size: 4.2em;
+}
+.info .white_box{
+    border: 10px solid black;
+    align-items: center;
+    left: 25%;
+    right: 25%;
+    background-color: rgb(255, 255, 255);
+    height: 18.75em;
+    top: 71.875em;
+    position: absolute;
+    
+}.info img{
+    border: 3px solid rgb(255, 0, 0);
+    width: 100%;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 62.5em;
+    height: 37.5em;
+    align-items: center;
+}
+header {  
+    background-color: rgb(0, 0, 0);  
+    position: fixed;  
+    left: 5px;  
+    right: 5px;  
+    top: 5px;  
+    height: 80px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;
+}
+header * {  
+    display: inline;  
+    }  
+    header li {  
+    margin: 20px;  
+    }  
+    header li a {  
+    color: rgb(255, 255, 255);  
+    text-decoration: none;  
+    }  
+    header a{
+        font-size: 20px;
+    }
+    header a:hover{
+        color: grey;
+    }
+
+footer{
+    height: 20em;
+    background-color: blue;
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
