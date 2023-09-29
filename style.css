@@ -343,15 +343,14 @@ body{
     top: 71.875em;
     position: absolute;
     
-}.info img{
+}.info .info_bg{
     border: 3px solid rgb(255, 0, 0);
-    width: 100%;
+    width: 94.6875em;
     position:absolute;
     left: 0;
     right: 0;
     top: 62.5em;
     height: 37.5em;
-    align-items: center;
 }
 header {  
     background-color: rgb(0, 0, 0);  
