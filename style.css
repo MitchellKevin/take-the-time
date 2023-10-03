@@ -516,9 +516,35 @@ a{
         height: 38em;
         opacity: 0.4;
     }
+   .diver img{
+    position: relative;
+    left: -6em;
+    top: -40em;
+    height: 20em;
+    height: 30em;
+   }
+   .diver .text{
+    text-align: center;
+    top: -45em;
+    left: -10.5em;
+   }
+   .button{
+    position: relative;
+    left: -2em;
+    top: 17em;
+
+   }
+   .diver .titleDiver{
+    font-size: 3em;
+    position: relative;
+    top: -26em;
+    left:-2.5em;
+   }
+   
     .info .white_box h1{
-        font-size: 2em;
+        font-size: 2.5em;
     }
+
     /* Omega page */
     .speedmaster{
         flex-direction: column;
