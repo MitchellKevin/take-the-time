@@ -33,11 +33,11 @@ body{
     font-size: 2.5em;
     color: white;
     background-color: black;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
-    top: 4700px;
-    height: 200px;
+    top: 110em;
+    height: 5em;
     align-items: center;
 }
 .about_balk a{
@@ -55,7 +55,7 @@ body{
     border: 3px solid black;
     position: absolute;
     top: 0;
-    left: 20em;
+    left: 18em;
     height: 62.5em;
     /* rotate: 45deg; */
 }
@@ -111,6 +111,15 @@ body{
     top: 250px;
     background-color: rgb(219, 214, 214);
 }
+/* .box1 .black_box{
+    opacity: 1;
+    width: 200px;
+    height: 250px;
+}
+.box1:hover .black_box{
+    opacity: 1;
+    background-color: black;
+} */
 .box2{
     border: 3px solid blue;
     display: flex;
@@ -207,22 +216,22 @@ body{
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     width: max-content;
-    bottom: 800px;
-    font-size: 100px;
-    left: 500px;
+    top: -8em;
+    font-size: 6.25em;
+    right: -5em;
 }
 .diver .text{
     width: 100%;
-    position: absolute;
-    top: 250px;
+    position: relative;
+    top: -50em;
     left: 600px;
 }
 .diver{
   position: relative;
-  left: 200px;
-  top: 800px;
-  height: 800px;
-  width: 425px;
+  left: 10em;
+  top: -20em;
+  height: 50em;
+  width: 26.56em;
 }
 .button{
     text-align: center;
@@ -241,15 +250,15 @@ body{
     margin-right: 0;
     position: relative;
     left: 43.75em;
-    top: 175em;
+    top: 110em;
 }
 .dress .titleDress{
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     width: max-content;
-    bottom: 50em;
+    bottom: 8em;
     font-size: 6.25em;
-    right: 37.5em;
+    right: 6em;
 }
 .dress .text{
     width: 100%;
@@ -277,11 +286,10 @@ body{
     
 }
 .fav{
-    width: 425px;
-    margin-right: 0;
+    width: 26.56em;
     position: relative;
-    left: 100px;
-    top: 1800px; 
+    left: 0;
+    top: 53em; 
 }
 .fav .titleFav{
     font-family: 'Times New Roman', Times, serif;
@@ -352,6 +360,16 @@ body{
     top: 62.5em;
     height: 37.5em;
 }
+
+
+footer{
+    height: 20em;
+    background-color: blue;
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+
 header {  
     background-color: rgb(0, 0, 0);  
     position: fixed;  
@@ -379,11 +397,29 @@ header * {
     header a:hover{
         color: grey;
     }
+    
+/* IWC  */
 
-footer{
-    height: 20em;
-    background-color: blue;
-    text-align: center;
-    padding: 3px;
-    color: white;
+.speedmaster{
+    position: absolute;
+    right: 0em;
+
+    /* animation: 3s linear 0s infinite running myRotate; */
+}
+.seamaster{
+    position: absolute;
+    top: 60em;
+}
+.aquaTerra{
+    position: absolute;
+    right: 0;
+    top: 120em
+}
+.ville{
+    position: absolute;
+    top: 180em;
+}
+
+@keyframes myRotate{
+    100%{transform: rotateZ(360deg);}
 }
