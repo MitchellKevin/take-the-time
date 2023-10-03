@@ -46,15 +46,15 @@ body{
 }
 .title{
     border: 3px solid black;
-    padding: 5px;
+    padding: 0.3em;
     font-size: 10.9em;
     position: relative;
     right: 0;
 }
 .homeWatch{
     border: 3px solid black;
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: -59em;
     left: 18em;
     height: 62.5em;
     /* rotate: 45deg; */
@@ -281,12 +281,6 @@ body{
     height: 3.125em;
     width: 9.375em;
 }
-.dress .button:hover{
-    box-shadow: 0 0 1.5625em 0 black;
-    color: white;
-    background-color: black;
-    
-}
 .fav{
     width: 26.56em;
     position: relative;
@@ -358,7 +352,7 @@ body{
     
 }.info .info_bg{
     border: 3px solid rgb(255, 0, 0);
-    width: 94.6875em;
+    width: 100%;
     position:absolute;
     left: 0;
     right: 0;
@@ -413,7 +407,7 @@ header * {
     height: 40em;
     position: relative;
     top: 5em;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     /* left: 50em; */
     /* animation: 3s linear 0s infinite running myRotate; */
 }
@@ -423,10 +417,10 @@ header * {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* flex-direction: row-reverse; */
+    flex-direction: row-reverse;
     position: relative;
-    top: 5em;
-    border: 3px solid black;
+    top: 15em;
+    /* border: 3px solid black; */
 }
 .aquaTerra{
     width: 100%;
@@ -434,66 +428,39 @@ header * {
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    top: 5em;
-    border: 3px solid black;
+    top: 25em;
+    /* border: 3px solid black; */
 }
 .ville{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* flex-direction: row-reverse; */
+    flex-direction: row-reverse;
     position: relative;
-    top: 5em;
-    border: 3px solid black;
+    top: 35em;
+    /* border: 3px solid black; */
 }
-.speedmaster p{
+.omega_p{
     font-size: 1.5em;
+    border: 0.5em outset;
 }
-.seamaster p{
-    font-size: 1.5em;
-}
-.aquaTerra p{
-    font-size: 1.5em;
-}
-.ville p{
-    font-size: 1.5em;
-}
-.speedmaster h2{
-    width: 3em;
+.omega_h2{
+    width: 5em;
     font-size: 3em;
 }
-.seamaster h2{
-    font-size: 3em;
-    width: 3em;
-}
-.aquaTerra h2{
-    font-size: 3em;
-    width: 3em;
-}
-.ville h2{
-    font-size: 3em;
-    width: 3em;
-}
-.speedmaster img{
-   width: 40em;
-   height: 40em; 
-}
-.seamaster img{
-    width: 40em;
-    height: 40em;
-}
-.aquaTerra img{
-    width: 40em;
-    height: 40em;
-}
-.ville img{
+.omega_img{
     width: 40em;
     height: 40em;
 }
 
 /* Buttons voor Omega watches */
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .pic_button{
+    font-size: 1.5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -508,10 +475,64 @@ header * {
     height: 3.125em;
     width: 9.375em;
 }
+.pic_button:hover{
+    box-shadow: 0 0 25px 0 black;
+    transition: 0.5s;
+    color: white;
+    background-color: black;
+    animation: 3s linear 0s infinite running scale;
+}
 .flex{
     display: flex;
     flex-direction: column-reverse;
 }
+
 @keyframes scale{
     50%{transform: scale(0.9,0.9);}
+}
+
+/* Omega speedmaster page */
+.flex-container-speedmaster{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.flex-container-speedmaster img{
+    width: fit-content;
+    height: fit-content;
+}
+
+@media screen and (max-width:600px) {
+    /* Home page */
+    .title{
+        font-size: 9em;
+    }
+    .homeWatch{
+        width: fit-content;
+        left: -10em;
+        top: -45em;
+        height: 38em;
+        opacity: 0.4;
+    }
+    .info .white_box h1{
+        font-size: 2.5em;
+    }
+    /* Omega page */
+    .speedmaster{
+        flex-direction: column;
+        margin-top: 15em;
+    }
+    .seamaster{
+        flex-direction: column;
+        margin-top: 15em;
+    }
+    .aquaTerra{
+        flex-direction: column;
+    }
+    .ville{
+        flex-direction: column;
+    }
+
 }
