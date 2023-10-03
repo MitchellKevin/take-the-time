@@ -244,6 +244,8 @@ body{
     border: 5px solid black;
     height: 50px;
     width: 150px;
+
+    /* animation: 3s linear 0s infinite running scale; */
 }
 .dress{
     width: 26.56em;
@@ -323,18 +325,21 @@ body{
     transition: 0.5s;
     color: white;
     background-color: black;
+    animation: 3s linear 0s infinite running scale;
 }
 .fav .button:hover{
     box-shadow: 0 0 25px 0 black;
     transition: 0.5s;
     color: white;
     background-color: black;
+    animation: 3s linear 0s infinite running scale;
 }
 .dress .button:hover{
     box-shadow: 0 0 25px 0 black;
     transition: 0.5s;
     color: white;
     background-color: black;
+    animation: 3s linear 0s infinite running scale;
 }
 
 .info .white_box h1{
@@ -401,25 +406,30 @@ header * {
 /* IWC  */
 
 .speedmaster{
-    position: absolute;
-    right: 0em;
-
+    width: 40em;
+    height: 40em;
+    position: relative;
+    top: 5em;
+    left: 50em;
+    
     /* animation: 3s linear 0s infinite running myRotate; */
 }
 .seamaster{
-    position: absolute;
-    top: 60em;
+    position: relative;
+    top: 5em;
 }
 .aquaTerra{
-    position: absolute;
-    right: 0;
-    top: 120em
+    width: 40em;
+    height: 40em;
+    position: relative;
+    left: 50em;
+    top: 5em;
 }
 .ville{
-    position: absolute;
-    top: 180em;
+    position: relative;
+    top: 5em;
 }
 
-@keyframes myRotate{
-    100%{transform: rotateZ(360deg);}
+@keyframes scale{
+    50%{transform: scale(0.9,0.9);}
 }
