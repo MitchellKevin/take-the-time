@@ -261,7 +261,7 @@ body{
     align-items: center;
     width: 100%;
     position: relative;
-    top: 110em;
+    top: 25em;
 }
 .diver{
     display: flex;
@@ -269,7 +269,7 @@ body{
     align-items: center;
     width: 100%;
     position: relative;
-    top: 0em;
+    top: -70em;
 }
 .fav{
     display: flex;
@@ -277,7 +277,7 @@ body{
     align-items: center;
     width: 100%;
     position: relative;
-    top: 80em;
+    top: 0em;
 }
 .text{
     text-align: center;
