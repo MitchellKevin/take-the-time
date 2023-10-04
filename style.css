@@ -212,7 +212,7 @@ body{
     height: 300px;
     align-items: center;
 } */
-.diver .titleDiver{
+/* .diver .titleDiver{
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     width: max-content;
@@ -246,29 +246,93 @@ body{
     width: 150px;
 
     /* animation: 3s linear 0s infinite running scale; */
+
+.flex_dress{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: 3px solid black; */
 }
 .dress{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 110em;
+}
+.diver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 0em;
+}
+.fav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 80em;
+}
+.text{
+    text-align: center;
+    font-size: 1em;
+    width: 20em;
+    border: 3px ;
+}
+.button_main{
+    width: 10em;
+    text-align: center;
+    border: 0.3em solid black;
+    color: black;
+}
+.main_img{
+    /* border: 3px solid blue; */
+    height: 45em;
+    width: 35em;
+}
+.rolex_img{
+    height: 40em;
+    width: 27em;
+}
+.titleDress{
+    color: rgb(190, 190, 190);
+    text-shadow: -1.5px 1.5px 0 #000, 
+                          1.5px 1.5px 0 #000, 
+                         1.5px -1.5px 0 #000, 
+                        -1.5px -1.5px 0 #000;
+    text-align: center;
+    font-size: 5em;
+    width: 5em;
+}
+/* .dress{
+    display: flex;
     width: 26.56em;
     margin-right: 0;
     position: relative;
     left: 43.75em;
     top: 110em;
-}
-.dress .titleDress{
+} */
+/* .dress .titleDress{
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     width: max-content;
     bottom: 8em;
     font-size: 6.25em;
     right: 6em;
-}
-.dress .text{
+} */
+/* .dress .text{
     width: 100%;
     position: absolute;
     top: 18.75em;
     left: -31.25em;
-}
-.dress .button{
+} */
+/* .dress .button{
     border: 10px solid black;
     text-align: center;
     color: black;
@@ -280,8 +344,8 @@ body{
     border: 0.3125em solid black;
     height: 3.125em;
     width: 9.375em;
-}
-.fav{
+} */
+/* .fav{
     width: 26.56em;
     position: relative;
     left: 0;
@@ -313,22 +377,22 @@ body{
     border: 5px solid black;
     height: 50px;
     width: 150px;
-}
-.diver .button:hover{
+} */
+/* .diver .button:hover{
     box-shadow: 0 0 25px 0 black;
     transition: 0.5s;
     color: white;
     background-color: black;
     animation: 3s linear 0s infinite running scale;
 }
-.fav .button:hover{
+.fav .button_dress:hover{
     box-shadow: 0 0 25px 0 black;
     transition: 0.5s;
     color: white;
     background-color: black;
     animation: 3s linear 0s infinite running scale;
-}
-.dress .button:hover{
+} */
+.button_main:hover{
     box-shadow: 0 0 25px 0 black;
     transition: 0.5s;
     color: white;
@@ -506,6 +570,16 @@ a{
 
 @media screen and (max-width:600px) {
     /* Home page */
+    .dress , .fav , .diver{
+        flex-direction: column;
+    }
+    
+    .titleDress{
+        order: -1;
+    }
+    .button_dress{
+        order: 1;
+    }
     .title{
         font-size: 9em;
     }
