@@ -3,31 +3,6 @@ body{
     background-color: rgb(255, 255, 255);
     margin: 0;
 }
-/* .flex-container_info{
-    display: flex;
-    justify-content: space-evenly;
-}
-.watch_info{
-    border: 3px solid red;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    height: 200px;
-    width: 200px;
-} */
-
-/* .watch_info p{
-    color: white;
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    background-color: black;
-} */
-/* .watch_info:hover{
-    border: 3px solid blue;
-    transition-duration: 0.3s;
-    opacity: 1;
-} */
 
 .about_balk{
     text-align: center;
@@ -61,57 +36,6 @@ body{
     /* rotate: 45deg; */
 }
 
-/* .flex-container{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.flex-container2{
-    display: flex;
-    justify-content: space-evenly;
-} */
-/* .box1 img{
-    border: 3px solid black;
-}
-.box2 img{
-    border: 3px solid black;
-}
-.box3 img{
-    border: 3px solid black;
-}
-.box5 img{
-    border: 3px solid black;
-}
-.box6 img{
-    border: 3px solid black;
-}
-.box7 img{
-    height: 200px;
-    width: 200px;
-    border: 3px solid black;
-}
-.box1{
-    border: 3px solid blue;
-    display: flex;
-    margin: 10px;
-    margin-right: 0px;
-    /* left: 215px;
-    position: absolute; */
-    /* width: 200px;
-    height: 250px;
-    align-items: center;
-    top: 250px;
-    background-color: rgb(219, 214, 214);
-} */ 
-/* .box1 .black_box{
-    opacity: 1;
-    width: 200px;
-    height: 250px;
-}
-.box1:hover .black_box{
-    opacity: 1;
-    background-color: black;
-} */
 .box2{
     border: 3px solid blue;
     display: flex;
@@ -194,51 +118,6 @@ body{
 .title .the{
     color: grey;
 }
-/* .contactBalk{
-    color: white;
-    background-color: black;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 5500px;
-    height: 300px;
-    align-items: center;
-} */
-/* .diver .titleDiver{
-    font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    width: max-content;
-    top: -8em;
-    font-size: 6.25em;
-    right: -5em;
-}
-.diver .text{
-    width: 100%;
-    position: relative;
-    top: -50em;
-    left: 600px;
-}
-.diver{
-  position: relative;
-  left: 10em;
-  top: -20em;
-  height: 50em;
-  width: 26.56em;
-}
-.button{
-    text-align: center;
-    color: black;
-    left: 650px;
-    position: absolute;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    top: 600px;
-    border: 5px solid black;
-    height: 50px;
-    width: 150px;
-
-    /* animation: 3s linear 0s infinite running scale; */
-
 .flex_dress{
     display: flex;
     align-items: center;
@@ -302,88 +181,6 @@ body{
     font-size: 5em;
     width: 5em;
 }
-/* .dress{
-    display: flex;
-    width: 26.56em;
-    margin-right: 0;
-    position: relative;
-    left: 43.75em;
-    top: 110em;
-} */
-/* .dress .titleDress{
-    font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    width: max-content;
-    bottom: 8em;
-    font-size: 6.25em;
-    right: 6em;
-} */
-/* .dress .text{
-    width: 100%;
-    position: absolute;
-    top: 18.75em;
-    left: -31.25em;
-} */
-/* .dress .button{
-    border: 10px solid black;
-    text-align: center;
-    color: black;
-    left: -28.125em;
-    position: absolute;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    top: 40.625em;
-    border: 0.3125em solid black;
-    height: 3.125em;
-    width: 9.375em;
-} */
-/* .fav{
-    width: 26.56em;
-    position: relative;
-    left: 0;
-    top: 53em; 
-}
-.fav .titleFav{
-    font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    width: max-content;
-    bottom: 800px;
-    font-size: 100px;
-    left: 550px;
-}
-.fav .text{
-    width: 100%;
-    position: absolute;
-    top: 250px;
-    left: 700px;
-} 
-.fav .button{
-    border: 10px solid black;
-    text-align: center;
-    color: black;
-    left: 750px;
-    position: absolute;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    top: 600px;
-    border: 5px solid black;
-    height: 50px;
-    width: 150px;
-} */
-/* .diver .button:hover{
-    box-shadow: 0 0 25px 0 black;
-    transition: 0.5s;
-    color: white;
-    background-color: black;
-    animation: 3s linear 0s infinite running scale;
-}
-.fav .button_dress:hover{
-    box-shadow: 0 0 25px 0 black;
-    transition: 0.5s;
-    color: white;
-    background-color: black;
-    animation: 3s linear 0s infinite running scale;
-} */
 .button_main:hover{
     box-shadow: 0 0 25px 0 black;
     transition: 0.5s;
@@ -577,17 +374,48 @@ a{
     height: fit-content;
 }
 
-/* Page omega_pic */
-.container-foto{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
 .background_watch{
     width: 100%;
     height: 50em;
     position: relative;
     top: 5em;
+} 
+
+/* Speedmaster page */
+.flex-indi-watch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-pic-text{
+    width: 60%;
+    position: relative;
+    top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.test-img{
+    width: 30em;
+    height: 20em;
+}
+.text-watches{
+    width: 150em;
+}
+.Black_Balk{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 0.2em;
+    background-color: black;
+}
+.BB{
+    display: flex;
+    justify-content: center;
+    width: 200%;
+    height: 0.25em;
+    rotate: 90deg;
+    background-color: black;
 }
 @media screen and (max-width:600px) {
     /* Home page */
