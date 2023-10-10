@@ -21,14 +21,12 @@ body{
     text-decoration: none;
 }
 .title{
-    border: 3px solid black;
     padding: 0.3em;
     font-size: 10.9em;
     position: relative;
     right: 0;
 }
 .homeWatch{
-    border: 3px solid black;
     position: relative;
     top: -59em;
     left: 18em;
@@ -85,15 +83,6 @@ body{
     background-color: rgb(219, 214, 214);
 } */
 
-.sort{
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    font-size: 60px;
-    text-align: center;
-    top: 400px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 /* Flexbox home page */
 .bannerDress{
     opacity: 60%;
@@ -194,8 +183,7 @@ body{
     position: absolute;
     
 }.info .info_bg{
-    border: 3px solid rgb(255, 0, 0);
-    width: 99%;
+    width: 100%;
     position:absolute;
     left: 0;
     right: 0;
@@ -346,9 +334,45 @@ a{
     display: flex;
     flex-direction: column-reverse;
 }
-
+/* About us */
+.flex-container-about-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.animate_watch{
+    width: 25em;
+    animation: rotation 60s infinite linear;
+    /* border: 3px solid black; */
+}
+.aboutme_text{
+    font-size: 1.5em;
+    width: 30em;
+}
+.aboutme_title{
+    color: rgb(190, 190, 190);
+    text-shadow: -1.5px 1.5px 0 #000, 
+                          1.5px 1.5px 0 #000, 
+                         1.5px -1.5px 0 #000, 
+                        -1.5px -1.5px 0 #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 5em;
+    text-align: center;
+    top: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* CSS Animations */
 @keyframes scale{
     50%{transform: scale(0.9,0.9);}
+}
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(359deg);
+    }
 }
 
 /* Omega speedmaster page */
@@ -411,7 +435,9 @@ a{
     /* Home page */
     .dress , .fav , .diver{
         flex-direction: column;
+        justify-content: space-between;
     }
+    
     
     .titleDress{
         order: -1;
@@ -457,7 +483,18 @@ a{
     .info .white_box h1{
         font-size: 2.5em;
     }
+/* About us phone */
 
+.flex-container-about-us{
+    text-align: center;
+    flex-direction: column;
+}
+.animate_watch{
+    margin-top: 5em;
+}
+.aboutme_text{
+    width: 15em;
+}
     /* Omega page */
     .watch1{
         flex-direction: column;
