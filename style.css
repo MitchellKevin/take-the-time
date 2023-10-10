@@ -1,8 +1,9 @@
 
 body{
     background-color: rgb(255, 255, 255);
+    margin: 0;
 }
-.flex-container_info{
+/* .flex-container_info{
     display: flex;
     justify-content: space-evenly;
 }
@@ -13,20 +14,20 @@ body{
     justify-content: center;
     height: 200px;
     width: 200px;
-}
+} */
 
-.watch_info p{
+/* .watch_info p{
     color: white;
     display: flex;
     justify-content: center;
     width: 200px;
     background-color: black;
-}
-.watch_info:hover{
+} */
+/* .watch_info:hover{
     border: 3px solid blue;
     transition-duration: 0.3s;
     opacity: 1;
-}
+} */
 
 .about_balk{
     text-align: center;
@@ -60,16 +61,7 @@ body{
     /* rotate: 45deg; */
 }
 
-.infoBox{
-    display: flex;
-    font-family: 'Times New Roman', Times, serif;
-    /* background-color: rgb(255, 255, 255); */
-    height: 20px;
-    width: 250px;
-    justify-content: flex-end;
-    align-self: flex-start;
-}
-.flex-container{
+/* .flex-container{
     display: flex;
     justify-content: space-evenly;
     
@@ -77,8 +69,8 @@ body{
 .flex-container2{
     display: flex;
     justify-content: space-evenly;
-}
-.box1 img{
+} */
+/* .box1 img{
     border: 3px solid black;
 }
 .box2 img{
@@ -105,12 +97,12 @@ body{
     margin-right: 0px;
     /* left: 215px;
     position: absolute; */
-    width: 200px;
+    /* width: 200px;
     height: 250px;
     align-items: center;
     top: 250px;
     background-color: rgb(219, 214, 214);
-}
+} */ 
 /* .box1 .black_box{
     opacity: 1;
     width: 200px;
@@ -590,6 +582,12 @@ a{
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+.background_watch{
+    width: 100%;
+    height: 50em;
+    position: relative;
+    top: 5em;
 }
 @media screen and (max-width:600px) {
     /* Home page */
