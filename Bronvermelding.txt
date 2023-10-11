@@ -1,0 +1,60 @@
+For in the map folder watches:
+Aqua Terra:
+Info=https://www.ogdenharrogate.co.uk/blogs/news/the-story-of-the-omega-aqua-terra
+Img=https://horloge.info/omega-seamaster-aqua-terra-150m-master-chronometer/
+
+Datejust:
+Info=https://www.rolex.com/watches/datejust?ef_id=Cj0KCQjw7JOpBhCfARIsAL3bobeXdZuYllJv-rzJ9vIsBpFMyxNFkCmPKsH2c6wvRBz9duyJXZNlK-0aAomeEALw_wcB:G:s&s_kwcid=AL!141!3!652413236332!e!!g!!rolex%20datejust!8681882299!88752317962
+Img=https://www.chrono24.nl/rolex/tweedehands-datejust-horloges--mod45-used.htm#gref
+
+Daytona:
+Info:https://www.rolex.com/nl/watches/cosmograph-daytona?ef_id=Cj0KCQjw7JOpBhCfARIsAL3bobcVUrZoVrlN9AI8w_t4VGSBG4o1SNDd0qKl95a7jXbfKjKYSAAhlq4aAgtUEALw_wcB:G:s&s_kwcid=AL!141!3!656478870372!e!!g!!rolex%20daytona!8682307600!86862927323
+Img: https://watchesbysjx.com/2023/03/rolex-cosmograph-daytona-126500.html
+
+Explorer:
+Info:https://www.rolex.com/nl/watches/explorer?ef_id=Cj0KCQjw7JOpBhCfARIsAL3bobff72icyHG5hDZbIW5lVKmtQSo86Otlacg3_zbWrypAupFD3TKpz50aAoPTEALw_wcB:G:s&s_kwcid=AL!141!3!656478870390!e!!g!!rolex%20explorer!8682307648!86862929243
+Img: https://nexgentelco.com/?i=rolex-yacht-master-in-gold-m226658-0001-meierotto-jewelers-ll-j8R884s3
+
+GMT‑Master:
+Info:https://www.rolex.com/nl/watches/gmt-master-ii?ef_id=Cj0KCQjw7JOpBhCfARIsAL3bobdjZu3GaaNLRLTRwlIV2PhFe1skC-SWP6wuk6P3fOmClftnYVK43NUaAnJGEALw_wcB:G:s&s_kwcid=AL!141!3!656478870399!e!!g!!rolex%20gmt%20master!8682307660!86862929723
+Img: https://www.rolex.com/nl/watches/new-watches/new-explorer-40
+
+Pilot:
+Info:https://www.iwc.com/nl/en/introduction-iwc-collections/pilot-watches.html?&mid=2300l9g60907&mkwid=sVk6pXlRk_dm&pcrid=549187437781&kword=iwc%2520pilot&match=e&plid=&gclid=Cj0KCQjw7JOpBhCfARIsAL3bobcEFNyUpYsdHVYv2XqT_CCMh1baPk28gHMOoaC5ouAhjlqw6j78Cn4aAuctEALw_wcB&gclsrc=aw.ds
+Img: https://www.watchtime.com/reviews/all-fired-up-reviewing-the-iwc-pilots-watch-automatic-spitfire/
+
+Portofino:
+Info: https://www.iwc.com/en/introduction-iwc-collections/portofino.html
+Img: https://watchesbysjx.com/2022/11/iwc-portofino-perpetual-calendar-iw3446.html
+
+Portugese:
+Info:https://www.iwc.com/en/introduction-iwc-collections/portugieser.html#:~:text=At%20the%20end%20of%20the,first%20was%20launched%20in%201939.
+Img: https://www.iwc.com/nl/en/watch-collections/portugieser/iw503312-portugieser-perpetual-calendar-boutique-edition.html
+
+Seamaster:
+Info:https://en.wikipedia.org/wiki/Omega_Seamaster
+Img: https://teddybaldassarre.com/en-int/blogs/watches/omega-seamaster
+
+Speedmaster:
+Info:<https://en.wikipedia.org/wiki/Omega_Speedmaster
+Img: 
+
+Submariner:
+Info:https://www.rolex.com/watches/submariner?ef_id=Cj0KCQjw7JOpBhCfARIsAL3bobf9nXRjLekV0ALvljmS5DwYYsq9Xh93Y_xZ_OwTGXCfQI27SVYZmXkaAmBgEALw_wcB:G:s&s_kwcid=AL!141!3!652413236359!e!!g!!rolex%20submariner!8681882536!88752322722
+Img:https://www.wired.co.uk/article/martian-time
+
+Ville:
+Info: https://goldammer.me/blogs/articles/deville-omega-history#:~:text=The%20DeVille%20idea%20gets%20introduced,page%20in%20the%20Omega%20catalogue.
+Img: https://vanhell-juweliers.nl/product/omega-de-ville-hour-vision-co-axial-41mm-pre-owned-431-63-41-21-13-001/
+
+Vinci:
+Info:https://it.wikipedia.org/wiki/IWC_Da_Vinci
+Img: https://www.horobox.com/en/review-detail/iwc-da-vinci-tourbillon-retrograde-chronograph
+
+Yacht-Master:
+Info:https://www.rolex.com/nl/watches/yacht-master?ef_id=Cj0KCQjw7JOpBhCfARIsAL3bobdj0b2sZCoW1M7hvHC7P5XIX6Zl-uXOv-Sf84Ow9lFLowpMXEdVGUUaAsb9EALw_wcB:G:s&s_kwcid=AL!141!3!656478870426!e!!g!!rolex%20yacht%20master!8682307864!86862933243
+Img: https://nexgentelco.com/?i=rolex-yacht-master-in-gold-m226658-0001-meierotto-jewelers-ll-j8R884s3
+
+All other watches img are from chrono24.com or the link is in the img src
+
+All information on index.html comes from wikipedia
