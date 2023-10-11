@@ -12,7 +12,7 @@ body{
     position: relative;
     left: 0;
     right: 0;
-    top: 110em;
+    top: 60em;
     height: 5em;
     align-items: center;
 }
@@ -349,7 +349,7 @@ a{
     font-size: 1.5em;
     width: 30em;
 }
-.aboutme_title{
+.sort{
     color: rgb(190, 190, 190);
     text-shadow: -1.5px 1.5px 0 #000, 
                           1.5px 1.5px 0 #000, 
@@ -357,10 +357,9 @@ a{
                         -1.5px -1.5px 0 #000;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 0.5em;
     font-size: 5em;
     text-align: center;
-    top: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* CSS Animations */
@@ -395,7 +394,7 @@ a{
     top: 5em;
 } 
 
-/* Speedmaster page */
+/* Individueel watch pages */
 .flex-indi-watch{
     display: flex;
     flex-direction: column;
@@ -430,6 +429,10 @@ a{
     height: 0.25em;
     rotate: 90deg;
     background-color: black;
+}
+.individueel_watch_info{
+    width: 50em;
+    text-align: center;
 }
 @media screen and (max-width:600px) {
     /* Home page */
