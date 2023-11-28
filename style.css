@@ -110,6 +110,7 @@ body{
     text-align: center;
     font-size: 5em;
     width: 5em;
+    font-style: italic;
 }
 .button_main:hover{
     box-shadow: 0 0 25px 0 black;
