@@ -45,7 +45,7 @@ body{
     width: 100%;
     align-items: center;
 }
-.title .the{
+.title span{
     color: grey;
 }
 .flex_dress{
