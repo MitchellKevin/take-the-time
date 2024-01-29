@@ -279,7 +279,10 @@ header a:hover {
 .watch_p {
     font-size: 1.5em;
     border: 0.5em outset;
+    list-style: none;
+    padding: 0;
 }
+
 
 .watch_h2 {
     width: 5em;
@@ -419,8 +422,10 @@ a {
     height: 20em;
 }
 
-.text-watches {
-    width: 150em;
+.flex-pic-text ul{
+    font-size: 1.5em;
+    list-style: none;
+    margin: 0;
 }
 
 .Black_Balk {
