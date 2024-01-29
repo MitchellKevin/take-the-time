@@ -125,6 +125,8 @@ body{
 }
 
 .info .white_box h1{
+    font-style: italic;
+    font-weight: bold;
     text-align: center;
     font-size: 4.2em;
 }
@@ -303,6 +305,7 @@ a{
     /* border: 3px solid black; */
 }
 .aboutme_text{
+    font-style: italic;
     font-size: 1.5em;
     width: 30em;
 }
