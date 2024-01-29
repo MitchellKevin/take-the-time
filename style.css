@@ -16,6 +16,11 @@ body {
     align-items: center;
 }
 
+.about_balk span{
+    font-size: 0.5em;
+    text-decoration:underline;
+}
+
 .about_balk a {
     color: inherit;
     text-decoration: none;
