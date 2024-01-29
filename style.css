@@ -1,10 +1,9 @@
-
-body{
+body {
     background-color: rgb(255, 255, 255);
     margin: 0;
 }
 
-.about_balk{
+.about_balk {
     text-align: center;
     font-size: 2.5em;
     color: white;
@@ -16,17 +15,20 @@ body{
     height: 5em;
     align-items: center;
 }
-.about_balk a{
+
+.about_balk a {
     color: inherit;
     text-decoration: none;
 }
-.title{
+
+.title {
     padding: 0.3em;
     font-size: 10.9em;
     position: relative;
     right: 0;
 }
-.homeWatch{
+
+.homeWatch {
     position: relative;
     top: -59em;
     left: 18em;
@@ -35,7 +37,7 @@ body{
 }
 
 /* Flexbox home page */
-.bannerDress{
+.bannerDress {
     opacity: 60%;
     position: absolute;
     left: 0;
@@ -45,17 +47,20 @@ body{
     width: 100%;
     align-items: center;
 }
-.title span{
+
+.title span {
     color: grey;
 }
-.flex_dress{
+
+.flex_dress {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
     /* border: 3px solid black; */
 }
-.dress{
+
+.dress {
     /* border: 3px solid black; */
     display: flex;
     justify-content: center;
@@ -64,7 +69,8 @@ body{
     position: relative;
     top: 25em;
 }
-.diver{
+
+.diver {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +78,8 @@ body{
     position: relative;
     top: -70em;
 }
-.fav{
+
+.fav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,43 +87,50 @@ body{
     position: relative;
     top: 0em;
 }
-.text{
+
+.text {
     text-align: center;
     font-size: 1em;
     width: 20em;
-    border: 3px ;
+    border: 3px;
 }
-.button_main{
+
+.button_main {
     width: 10em;
     text-align: center;
     border: 0.3em solid black;
     color: black;
 }
-.main_img{
+
+.main_img {
     /* border: 3px solid blue; */
     height: 36em;
     width: 35em;
 }
-.iwc_img{
+
+.iwc_img {
     height: 45em;
     width: 35em;
 }
-.rolex_img{
+
+.rolex_img {
     height: 40em;
     width: 27em;
 }
-.titleDress{
+
+.titleDress {
     color: rgb(190, 190, 190);
-    text-shadow: -1.5px 1.5px 0 #000, 
-                          1.5px 1.5px 0 #000, 
-                         1.5px -1.5px 0 #000, 
-                        -1.5px -1.5px 0 #000;
+    text-shadow: -1.5px 1.5px 0 #000,
+        1.5px 1.5px 0 #000,
+        1.5px -1.5px 0 #000,
+        -1.5px -1.5px 0 #000;
     text-align: center;
     font-size: 5em;
     width: 5em;
     font-style: italic;
 }
-.button_main:hover{
+
+.button_main:hover {
     box-shadow: 0 0 25px 0 black;
     transition: 0.5s;
     color: white;
@@ -124,13 +138,14 @@ body{
     animation: 3s linear 0s infinite running scale;
 }
 
-.info .white_box h1{
+.info .white_box h1 {
     font-style: italic;
     font-weight: bold;
     text-align: center;
     font-size: 4.2em;
 }
-.info .white_box{
+
+.info .white_box {
     border: 10px solid black;
     align-items: center;
     left: 25%;
@@ -139,10 +154,12 @@ body{
     height: 18.75em;
     top: 71.875em;
     position: absolute;
-    
-}.info .info_bg{
+
+}
+
+.info .info_bg {
     width: 100%;
-    position:absolute;
+    position: absolute;
     left: 0;
     right: 0;
     top: 62.5em;
@@ -150,46 +167,52 @@ body{
 }
 
 
-footer{
+footer {
     height: 20em;
     background-color: blue;
     text-align: center;
     padding: 3px;
     color: white;
 }
+
 /* Header */
-header {  
-    background-color: rgb(0, 0, 0);  
-    position: fixed;  
-    left: 5px;  
-    right: 5px;  
-    top: 5px;  
-    height: 80px;  
-    display: flex;  
-    align-items: center;  
+header {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    height: 80px;
+    display: flex;
+    align-items: center;
     box-shadow: 0 0 25px 0 black;
     z-index: 2;
 }
-header * {  
-    display: inline;  
-    }  
-    header li {  
-    margin: 20px;  
-    }  
-    header li a {  
-    color: rgb(255, 255, 255);  
-    text-decoration: none;  
-    }  
-    header a{
-        font-size: 20px;
-    }
-    header a:hover{
-        color: grey;
-    }
-    
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header a {
+    font-size: 20px;
+}
+
+header a:hover {
+    color: grey;
+}
+
 /* IWC  */
 
-.watch1{
+.watch1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -202,7 +225,7 @@ header * {
     /* animation: 3s linear 0s infinite running myRotate; */
 }
 
-.watch2{
+.watch2 {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -212,7 +235,8 @@ header * {
     top: 15em;
     /* border: 3px solid black; */
 }
-.watch3{
+
+.watch3 {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -221,7 +245,8 @@ header * {
     top: 25em;
     /* border: 3px solid black; */
 }
-.watch4{
+
+.watch4 {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -231,7 +256,8 @@ header * {
     top: 35em;
     /* border: 3px solid black; */
 }
-.watch5{
+
+.watch5 {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -239,7 +265,8 @@ header * {
     position: relative;
     top: 45em;
 }
-.watch6{
+
+.watch6 {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -248,25 +275,29 @@ header * {
     position: relative;
     top: 55em;
 }
-.watch_p{
+
+.watch_p {
     font-size: 1.5em;
     border: 0.5em outset;
 }
-.watch_h2{
+
+.watch_h2 {
     width: 5em;
     font-size: 3em;
 }
-.watch_img{
+
+.watch_img {
     width: 40em;
     height: 40em;
 }
 
 /* Buttons voor Omega watches */
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
-.pic_button{
+
+.pic_button {
     font-size: 1.5em;
     display: flex;
     align-items: center;
@@ -274,7 +305,7 @@ a{
     border: 10px solid black;
     text-align: center;
     color: black;
-    left:0;
+    left: 0;
     position: relative;
     background-color: rgb(255, 255, 255);
     top: 0;
@@ -282,39 +313,45 @@ a{
     height: 3.125em;
     width: 9.375em;
 }
-.pic_button:hover{
+
+.pic_button:hover {
     box-shadow: 0 0 25px 0 black;
     transition: 0.5s;
     color: white;
     background-color: black;
     animation: 3s linear 0s infinite running scale;
 }
-.flex{
+
+.flex {
     display: flex;
     flex-direction: column-reverse;
 }
+
 /* About us */
-.flex-container-about-us{
+.flex-container-about-us {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.animate_watch{
+
+.animate_watch {
     width: 25em;
     animation: rotation 60s infinite linear;
     /* border: 3px solid black; */
 }
-.aboutme_text{
+
+.aboutme_text {
     font-style: italic;
     font-size: 1.5em;
     width: 30em;
 }
-.sort{
+
+.sort {
     color: rgb(190, 190, 190);
-    text-shadow: -1.5px 1.5px 0 #000, 
-                          1.5px 1.5px 0 #000, 
-                         1.5px -1.5px 0 #000, 
-                        -1.5px -1.5px 0 #000;
+    text-shadow: -1.5px 1.5px 0 #000,
+        1.5px 1.5px 0 #000,
+        1.5px -1.5px 0 #000,
+        -1.5px -1.5px 0 #000;
     display: flex;
     justify-content: center;
     padding-top: 0.5em;
@@ -322,45 +359,53 @@ a{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 /* CSS Animations */
-@keyframes scale{
-    50%{transform: scale(0.9,0.9);}
+@keyframes scale {
+    50% {
+        transform: scale(0.9, 0.9);
+    }
 }
-@keyframes rotation{
-    from{
+
+@keyframes rotation {
+    from {
         transform: rotate(0deg);
-    }to{
+    }
+
+    to {
         transform: rotate(359deg);
     }
 }
 
 /* Omega speedmaster page */
-.flex-container-speedmaster{
+.flex-container-speedmaster {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
 }
-.flex-container-speedmaster img{
+
+.flex-container-speedmaster img {
     width: fit-content;
     height: fit-content;
 }
 
-.background_watch{
+.background_watch {
     width: 100%;
     height: 50em;
     position: relative;
     top: 5em;
-} 
+}
 
 /* Individueel watch pages */
-.flex-indi-watch{
+.flex-indi-watch {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.flex-pic-text{
+
+.flex-pic-text {
     width: 60%;
     position: relative;
     top: 5em;
@@ -368,21 +413,25 @@ a{
     align-items: center;
     justify-content: space-around;
 }
-.test-img{
+
+.test-img {
     width: 30em;
     height: 20em;
 }
-.text-watches{
+
+.text-watches {
     width: 150em;
 }
-.Black_Balk{
+
+.Black_Balk {
     display: flex;
     align-items: center;
     width: 80%;
     height: 0.2em;
     background-color: black;
 }
-.BB{
+
+.BB {
     display: flex;
     justify-content: center;
     width: 200%;
@@ -390,93 +439,114 @@ a{
     rotate: 90deg;
     background-color: black;
 }
-.individueel_watch_info{
+
+.individueel_watch_info {
     width: 50em;
     text-align: center;
 }
+
 @media screen and (max-width:600px) {
+
     /* Home page */
-    .dress , .fav , .diver{
+    .dress,
+    .fav,
+    .diver {
         flex-direction: column;
         justify-content: space-between;
     }
-    
-    
-    .titleDress{
+
+
+    .titleDress {
         order: -1;
     }
-    .button_dress{
+
+    .button_dress {
         order: 1;
     }
-    .title{
+
+    .title {
         font-size: 9em;
     }
-    .homeWatch{
+
+    .homeWatch {
         width: fit-content;
         left: -10em;
         top: -45em;
         height: 38em;
         opacity: 0.4;
     }
-   .diver img{
-    position: relative;
-    left: -6em;
-    top: -40em;
-    height: 20em;
-    height: 30em;
-   }
-   .diver .text{
-    text-align: center;
-    top: -45em;
-    left: -10.5em;
-   }
-   .button{
-    position: relative;
-    left: -2em;
-    top: 17em;
 
-   }
-   .diver .titleDiver{
-    font-size: 3em;
-    position: relative;
-    top: -26em;
-    left:-2.5em;
-   }
-   
-    .info .white_box h1{
+    .diver img {
+        position: relative;
+        left: -6em;
+        top: -40em;
+        height: 20em;
+        height: 30em;
+    }
+
+    .diver .text {
+        text-align: center;
+        top: -45em;
+        left: -10.5em;
+    }
+
+    .button {
+        position: relative;
+        left: -2em;
+        top: 17em;
+
+    }
+
+    .diver .titleDiver {
+        font-size: 3em;
+        position: relative;
+        top: -26em;
+        left: -2.5em;
+    }
+
+    .info .white_box h1 {
         font-size: 2.5em;
     }
-/* About us phone */
 
-.flex-container-about-us{
-    text-align: center;
-    flex-direction: column;
-}
-.animate_watch{
-    margin-top: 5em;
-}
-.aboutme_text{
-    width: 15em;
-}
+    /* About us phone */
+
+    .flex-container-about-us {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .animate_watch {
+        margin-top: 5em;
+    }
+
+    .aboutme_text {
+        width: 15em;
+    }
+
     /* Omega page */
-    .watch1{
+    .watch1 {
         flex-direction: column;
         margin-top: 15em;
     }
-    .watch2{
+
+    .watch2 {
         flex-direction: column;
         margin-top: 15em;
     }
-    .watch3{
+
+    .watch3 {
         flex-direction: column;
     }
-    .watch4{
+
+    .watch4 {
         flex-direction: column;
     }
-    .watch5{
+
+    .watch5 {
         flex-direction: column;
     }
-    .watch6{
+
+    .watch6 {
         flex-direction: column;
     }
 }
