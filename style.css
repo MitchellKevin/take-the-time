@@ -94,6 +94,10 @@ body{
 }
 .main_img{
     /* border: 3px solid blue; */
+    height: 36em;
+    width: 35em;
+}
+.iwc_img{
     height: 45em;
     width: 35em;
 }
