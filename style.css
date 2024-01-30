@@ -139,7 +139,7 @@ footer a {
     animation: 3s linear 0s infinite running scale;
 }
 
-.info q h2 {
+.info q cite {
     font-style: italic;
     font-weight: bold;
     text-align: center;
