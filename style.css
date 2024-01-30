@@ -38,7 +38,6 @@ footer a {
     top: -59em;
     left: 18em;
     height: 62.5em;
-    /* rotate: 45deg; */
 }
 
 /* Flexbox home page */
@@ -62,11 +61,9 @@ footer a {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    /* border: 3px solid black; */
 }
 
 .dress {
-    /* border: 3px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +105,6 @@ footer a {
 }
 
 .main_img {
-    /* border: 3px solid blue; */
     height: 36em;
     width: 35em;
 }
@@ -217,9 +213,6 @@ header a:hover {
     height: 40em;
     position: relative;
     top: 5em;
-    /* border: 3px solid black; */
-    /* left: 50em; */
-    /* animation: 3s linear 0s infinite running myRotate; */
 }
 
 .watch2 {
@@ -230,7 +223,6 @@ header a:hover {
     flex-direction: row-reverse;
     position: relative;
     top: 15em;
-    /* border: 3px solid black; */
 }
 
 .watch3 {
@@ -240,7 +232,6 @@ header a:hover {
     align-items: center;
     position: relative;
     top: 25em;
-    /* border: 3px solid black; */
 }
 
 .watch4 {
@@ -251,7 +242,6 @@ header a:hover {
     flex-direction: row-reverse;
     position: relative;
     top: 35em;
-    /* border: 3px solid black; */
 }
 
 .watch5 {
@@ -338,7 +328,6 @@ a {
 .animate_watch {
     width: 25em;
     animation: rotation 60s infinite linear;
-    /* border: 3px solid black; */
 }
 
 .aboutme_text {
