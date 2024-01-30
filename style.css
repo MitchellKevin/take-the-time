@@ -139,21 +139,18 @@ footer a {
     animation: 3s linear 0s infinite running scale;
 }
 
-.info q cite {
+.info q {
     font-style: italic;
     font-weight: bold;
     text-align: center;
     font-size: 4.2em;
-}
 
-.info q {
     border: 10px solid black;
     align-items: center;
     left: 25%;
     right: 25%;
     background-color: rgb(255, 255, 255);
-    height: 18.75em;
-    top: 71.875em;
+    top: 17em;
     position: absolute;
 
 }
