@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-.about_balk {
+footer {
     text-align: center;
     font-size: 2.5em;
     color: white;
@@ -11,17 +11,17 @@ body {
     position: relative;
     left: 0;
     right: 0;
-    top: 60em;
+    top: 7em;
     height: 5em;
     align-items: center;
 }
 
-.about_balk span {
+footer span {
     font-size: 0.5em;
     text-decoration: underline;
 }
 
-.about_balk a {
+footer a {
     color: inherit;
     text-decoration: none;
 }
@@ -72,7 +72,7 @@ body {
     align-items: center;
     width: 100%;
     position: relative;
-    top: 25em;
+    top: 35em;
 }
 
 .diver {
@@ -81,7 +81,7 @@ body {
     align-items: center;
     width: 100%;
     position: relative;
-    top: -70em;
+    top: -60em;
 }
 
 .fav {
@@ -90,7 +90,7 @@ body {
     align-items: center;
     width: 100%;
     position: relative;
-    top: 0em;
+    top: 10em;
 }
 
 .text {
@@ -143,14 +143,14 @@ body {
     animation: 3s linear 0s infinite running scale;
 }
 
-.info .white_box h2 {
+.info q h2 {
     font-style: italic;
     font-weight: bold;
     text-align: center;
     font-size: 4.2em;
 }
 
-.info .white_box {
+.info q {
     border: 10px solid black;
     align-items: center;
     left: 25%;
@@ -171,14 +171,6 @@ body {
     height: 37.5em;
 }
 
-
-footer {
-    height: 20em;
-    background-color: blue;
-    text-align: center;
-    padding: 3px;
-    color: white;
-}
 
 /* Header */
 header {
